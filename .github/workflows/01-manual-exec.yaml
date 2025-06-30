@@ -22,6 +22,6 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-      - name: Execução dos testes unitários com Mocha
+      - name: Execução dos testes unitários 
         run: yarn test
 

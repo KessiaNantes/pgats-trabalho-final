@@ -21,7 +21,7 @@ jobs:
         run: npm install -g yarn
 
       - name: Instalando dependências
-        run: yarn 
+        run: yarn
 
-      - name: Executando testes unitários com Mocha
+      - name: Execução dos testes unitários 
         run: yarn test
