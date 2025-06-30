@@ -16,11 +16,12 @@ jobs:
         with:
           node-version: latest
 
-      - name: Instalando Yarn
-        run: npm install -g yarn
+      - name: Instalando Mocha
+        run: npm install -g mocha
 
-      - name: Instalando dependências
-        run: yarn 
+      - name: Instalação das dependências do projeto
+        run: npm install
 
-      - name: Executando testes unitários com Mocha
+      - name: Execução dos testes unitários com Mocha
         run: npm test
+
